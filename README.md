@@ -4,19 +4,19 @@ Interactive qPCR calculator for standard curve analysis, PCR efficiency estimati
 
 ## Features
 
-- 📈 **Standard Curve Generator**
+- **Standard Curve Generator**
   - Enter known standard concentrations and average Cq values
   - Computes regression line: slope, intercept, R², and PCR efficiency
   - Plots curve with equation and annotations
 
-- 🧪 **Sample Quantification**
+- **Sample Quantification**
   - Add multiple samples and dilution rows
   - Enter up to three Cq values per dilution
   - Automatically computes average Cq and back-calculates undiluted amounts
   - Outputs a tabular summary of sample concentrations
   - Includes bar chart comparison with log scale toggle
 
-- 🖥️ **Graphical Interface**
+- **Graphical Interface**
   - Built with Tkinter and embedded Matplotlib
   - Clean tab-based layout (Standards / Samples)
 
